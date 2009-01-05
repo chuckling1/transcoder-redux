@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		257572C4072881A4000BE9CA /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+				257572C5072881A4000BE9CA /* main.applescript in AppleScript */,
+				399035C90C0A80BD007AC6A6 /* buttons.applescript in AppleScript */,
+				39297B980CB0828D00995B21 /* snippets.applescript in AppleScript */,
+				39AFA14F0CB18E0C002F6525 /* table.applescript in AppleScript */,
+				397D7D960CD96D030064BAE5 /* lossies.applescript in AppleScript */,
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		257572C5072881A4000BE9CA /* main.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA206CF3015C4E8B03C91932 /* main.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		257572C7072881A4000BE9CA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
+		39297B980CB0828D00995B21 /* snippets.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 39297B970CB0828D00995B21 /* snippets.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		393F1C300B42CA0D00FACC7F /* tagwriter in Resources */ = {isa = PBXBuildFile; fileRef = 393F1C2D0B42CA0D00FACC7F /* tagwriter */; };
+		393F1C310B42CA0D00FACC7F /* tagreader in Resources */ = {isa = PBXBuildFile; fileRef = 393F1C2E0B42CA0D00FACC7F /* tagreader */; };
+		39709E8E0CBBDE0900F7BC13 /* preview.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 39709E7D0CBBDE0900F7BC13 /* preview.tiff */; };
+		39709E8F0CBBDE0900F7BC13 /* advanced.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 39709E7E0CBBDE0900F7BC13 /* advanced.tiff */; };
+		39709E900CBBDE0900F7BC13 /* info.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 39709E7F0CBBDE0900F7BC13 /* info.tiff */; };
+		39709E910CBBDE0900F7BC13 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 39709E800CBBDE0900F7BC13 /* ok.png */; };
+		39709E920CBBDE0900F7BC13 /* converting.png in Resources */ = {isa = PBXBuildFile; fileRef = 39709E810CBBDE0900F7BC13 /* converting.png */; };
+		39709E930CBBDE0900F7BC13 /* delete.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E820CBBDE0900F7BC13 /* delete.icns */; };
+		39709E940CBBDE0900F7BC13 /* burn.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E830CBBDE0900F7BC13 /* burn.icns */; };
+		39709E950CBBDE0900F7BC13 /* draghere.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E840CBBDE0900F7BC13 /* draghere.icns */; };
+		39709E960CBBDE0900F7BC13 /* GenericDocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E850CBBDE0900F7BC13 /* GenericDocumentIcon.icns */; };
+		39709E970CBBDE0900F7BC13 /* music.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E860CBBDE0900F7BC13 /* music.icns */; };
+		39709E980CBBDE0900F7BC13 /* cd.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E870CBBDE0900F7BC13 /* cd.icns */; };
+		39709E990CBBDE0900F7BC13 /* documents.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E880CBBDE0900F7BC13 /* documents.icns */; };
+		39709E9A0CBBDE0900F7BC13 /* add.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E890CBBDE0900F7BC13 /* add.icns */; };
+		39709E9B0CBBDE0900F7BC13 /* prefs.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E8A0CBBDE0900F7BC13 /* prefs.icns */; };
+		39709E9C0CBBDE0900F7BC13 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 39709E8B0CBBDE0900F7BC13 /* error.png */; };
+		39709E9D0CBBDE0900F7BC13 /* itunes.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E8C0CBBDE0900F7BC13 /* itunes.icns */; };
+		39709E9E0CBBDE0900F7BC13 /* clearall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 39709E8D0CBBDE0900F7BC13 /* clearall.tiff */; };
+		397D7D960CD96D030064BAE5 /* lossies.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 397D7D950CD96D030064BAE5 /* lossies.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		398A3B290CCAA56F00548284 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398A3B280CCAA56F00548284 /* Localizable.strings */; };
+		398A3C340CCBA3F700548284 /* waver in Resources */ = {isa = PBXBuildFile; fileRef = 398A3C330CCBA3F700548284 /* waver */; };
+		399035C90C0A80BD007AC6A6 /* buttons.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 399035C80C0A80BD007AC6A6 /* buttons.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		39AAC65C0CBC218F0047C07C /* burntbottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC65B0CBC218F0047C07C /* burntbottom.png */; };
+		39AAC65F0CBC22D90047C07C /* grayback.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC65E0CBC22D90047C07C /* grayback.png */; };
+		39AAC6DA0CBC82F20047C07C /* toolbaraudio.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC6D90CBC82F20047C07C /* toolbaraudio.png */; };
+		39AAC6DD0CBC84080047C07C /* toolbaroneoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC6DB0CBC84080047C07C /* toolbaroneoff.png */; };
+		39AAC6DE0CBC84080047C07C /* toolbarinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC6DC0CBC84080047C07C /* toolbarinfo.png */; };
+		39AFA14F0CB18E0C002F6525 /* table.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 39AFA14E0CB18E0C002F6525 /* table.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		39B220C80CC65ECC005F67E2 /* afconvert in Resources */ = {isa = PBXBuildFile; fileRef = 39B220C70CC65ECB005F67E2 /* afconvert */; };
+		39B220FB0CC660DD005F67E2 /* AtomicParsley in Resources */ = {isa = PBXBuildFile; fileRef = 39B220FA0CC660DD005F67E2 /* AtomicParsley */; };
+		39BAB0CA0CBBF98000616AA0 /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 39BAB0C90CBBF98000616AA0 /* ready.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		257572D5072881A4000BE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		257572D6072881A4000BE9CA /* FilmRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		39297B970CB0828D00995B21 /* snippets.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = snippets.applescript; sourceTree = "<group>"; };
+		393F1C2D0B42CA0D00FACC7F /* tagwriter */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tagwriter; sourceTree = "<group>"; };
+		393F1C2E0B42CA0D00FACC7F /* tagreader */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tagreader; sourceTree = "<group>"; };
+		39709E7D0CBBDE0900F7BC13 /* preview.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = preview.tiff; path = icons/preview.tiff; sourceTree = "<group>"; };
+		39709E7E0CBBDE0900F7BC13 /* advanced.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = advanced.tiff; path = icons/advanced.tiff; sourceTree = "<group>"; };
+		39709E7F0CBBDE0900F7BC13 /* info.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = info.tiff; path = icons/info.tiff; sourceTree = "<group>"; };
+		39709E800CBBDE0900F7BC13 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok.png; path = icons/ok.png; sourceTree = "<group>"; };
+		39709E810CBBDE0900F7BC13 /* converting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = converting.png; path = icons/converting.png; sourceTree = "<group>"; };
+		39709E820CBBDE0900F7BC13 /* delete.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = delete.icns; path = icons/delete.icns; sourceTree = "<group>"; };
+		39709E830CBBDE0900F7BC13 /* burn.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = burn.icns; path = icons/burn.icns; sourceTree = "<group>"; };
+		39709E840CBBDE0900F7BC13 /* draghere.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = draghere.icns; path = icons/draghere.icns; sourceTree = "<group>"; };
+		39709E850CBBDE0900F7BC13 /* GenericDocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = GenericDocumentIcon.icns; path = icons/GenericDocumentIcon.icns; sourceTree = "<group>"; };
+		39709E860CBBDE0900F7BC13 /* music.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = music.icns; path = icons/music.icns; sourceTree = "<group>"; };
+		39709E870CBBDE0900F7BC13 /* cd.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = cd.icns; path = icons/cd.icns; sourceTree = "<group>"; };
+		39709E880CBBDE0900F7BC13 /* documents.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = documents.icns; path = icons/documents.icns; sourceTree = "<group>"; };
+		39709E890CBBDE0900F7BC13 /* add.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = add.icns; path = icons/add.icns; sourceTree = "<group>"; };
+		39709E8A0CBBDE0900F7BC13 /* prefs.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = prefs.icns; path = icons/prefs.icns; sourceTree = "<group>"; };
+		39709E8B0CBBDE0900F7BC13 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = icons/error.png; sourceTree = "<group>"; };
+		39709E8C0CBBDE0900F7BC13 /* itunes.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = itunes.icns; path = icons/itunes.icns; sourceTree = "<group>"; };
+		39709E8D0CBBDE0900F7BC13 /* clearall.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = clearall.tiff; path = icons/clearall.tiff; sourceTree = "<group>"; };
+		397D7D950CD96D030064BAE5 /* lossies.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = lossies.applescript; sourceTree = "<group>"; };
+		398A3B280CCAA56F00548284 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		398A3C330CCBA3F700548284 /* waver */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = waver; sourceTree = "<group>"; };
+		399035C80C0A80BD007AC6A6 /* buttons.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = buttons.applescript; sourceTree = "<group>"; };
+		39AAC65B0CBC218F0047C07C /* burntbottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burntbottom.png; sourceTree = "<group>"; };
+		39AAC65E0CBC22D90047C07C /* grayback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayback.png; sourceTree = "<group>"; };
+		39AAC6D90CBC82F20047C07C /* toolbaraudio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbaraudio.png; sourceTree = "<group>"; };
+		39AAC6DB0CBC84080047C07C /* toolbaroneoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbaroneoff.png; sourceTree = "<group>"; };
+		39AAC6DC0CBC84080047C07C /* toolbarinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbarinfo.png; sourceTree = "<group>"; };
+		39AFA14E0CB18E0C002F6525 /* table.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = table.applescript; sourceTree = "<group>"; };
+		39B220C70CC65ECB005F67E2 /* afconvert */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = afconvert; sourceTree = "<group>"; };
+		39B220FA0CC660DD005F67E2 /* AtomicParsley */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = AtomicParsley; sourceTree = "<group>"; };
+		39BAB0C90CBBF98000616AA0 /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
+		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
+		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
+		DA206CF3015C4E8B03C91932 /* main.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = main.applescript; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257572CB072881A4000BE9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */,
+				257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				397D7D950CD96D030064BAE5 /* lossies.applescript */,
+				39297B970CB0828D00995B21 /* snippets.applescript */,
+				399035C80C0A80BD007AC6A6 /* buttons.applescript */,
+				DA206CF3015C4E8B03C91932 /* main.applescript */,
+				39AFA14E0CB18E0C002F6525 /* table.applescript */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257572D6072881A4000BE9CA /* FilmRedux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* FilmRedux */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Scripts */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				257572D5072881A4000BE9CA /* Info.plist */,
+			);
+			name = FilmRedux;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				393F1C2E0B42CA0D00FACC7F /* tagreader */,
+				393F1C2D0B42CA0D00FACC7F /* tagwriter */,
+				39B220FA0CC660DD005F67E2 /* AtomicParsley */,
+				398A3C330CCBA3F700548284 /* waver */,
+				39B220C70CC65ECB005F67E2 /* afconvert */,
+				399035D50C0A8188007AC6A6 /* Images */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				65359356078DD41800E8BB2F /* AppleScriptKit.sdef */,
+				398A3B280CCAA56F00548284 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		399035D50C0A8188007AC6A6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				39709E7D0CBBDE0900F7BC13 /* preview.tiff */,
+				39709E7E0CBBDE0900F7BC13 /* advanced.tiff */,
+				39709E7F0CBBDE0900F7BC13 /* info.tiff */,
+				39709E800CBBDE0900F7BC13 /* ok.png */,
+				39AAC65E0CBC22D90047C07C /* grayback.png */,
+				39AAC65B0CBC218F0047C07C /* burntbottom.png */,
+				39709E810CBBDE0900F7BC13 /* converting.png */,
+				39709E820CBBDE0900F7BC13 /* delete.icns */,
+				39AAC6D90CBC82F20047C07C /* toolbaraudio.png */,
+				39709E830CBBDE0900F7BC13 /* burn.icns */,
+				39709E840CBBDE0900F7BC13 /* draghere.icns */,
+				39709E850CBBDE0900F7BC13 /* GenericDocumentIcon.icns */,
+				39BAB0C90CBBF98000616AA0 /* ready.png */,
+				39AAC6DB0CBC84080047C07C /* toolbaroneoff.png */,
+				39AAC6DC0CBC84080047C07C /* toolbarinfo.png */,
+				39709E860CBBDE0900F7BC13 /* music.icns */,
+				39709E870CBBDE0900F7BC13 /* cd.icns */,
+				39709E880CBBDE0900F7BC13 /* documents.icns */,
+				39709E890CBBDE0900F7BC13 /* add.icns */,
+				39709E8A0CBBDE0900F7BC13 /* prefs.icns */,
+				39709E8B0CBBDE0900F7BC13 /* error.png */,
+				39709E8C0CBBDE0900F7BC13 /* itunes.icns */,
+				39709E8D0CBBDE0900F7BC13 /* clearall.tiff */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		257572C3072881A4000BE9CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		257572C2072881A4000BE9CA /* FilmRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "FilmRedux" */;
+			buildPhases = (
+				257572C3072881A4000BE9CA /* Headers */,
+				257572C4072881A4000BE9CA /* AppleScript */,
+				257572C6072881A4000BE9CA /* Resources */,
+				257572C9072881A4000BE9CA /* Sources */,
+				257572CB072881A4000BE9CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmRedux;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FilmRedux;
+			productReference = 257572D6072881A4000BE9CA /* FilmRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "FilmRedux" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* FilmRedux */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257572C2072881A4000BE9CA /* FilmRedux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257572C6072881A4000BE9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572C7072881A4000BE9CA /* MainMenu.nib in Resources */,
+				257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */,
+				393F1C300B42CA0D00FACC7F /* tagwriter in Resources */,
+				393F1C310B42CA0D00FACC7F /* tagreader in Resources */,
+				39709E8E0CBBDE0900F7BC13 /* preview.tiff in Resources */,
+				39709E8F0CBBDE0900F7BC13 /* advanced.tiff in Resources */,
+				39709E900CBBDE0900F7BC13 /* info.tiff in Resources */,
+				39709E910CBBDE0900F7BC13 /* ok.png in Resources */,
+				39709E920CBBDE0900F7BC13 /* converting.png in Resources */,
+				39709E930CBBDE0900F7BC13 /* delete.icns in Resources */,
+				39709E940CBBDE0900F7BC13 /* burn.icns in Resources */,
+				39709E950CBBDE0900F7BC13 /* draghere.icns in Resources */,
+				39709E960CBBDE0900F7BC13 /* GenericDocumentIcon.icns in Resources */,
+				39709E970CBBDE0900F7BC13 /* music.icns in Resources */,
+				39709E980CBBDE0900F7BC13 /* cd.icns in Resources */,
+				39709E990CBBDE0900F7BC13 /* documents.icns in Resources */,
+				39709E9A0CBBDE0900F7BC13 /* add.icns in Resources */,
+				39709E9B0CBBDE0900F7BC13 /* prefs.icns in Resources */,
+				39709E9C0CBBDE0900F7BC13 /* error.png in Resources */,
+				39709E9D0CBBDE0900F7BC13 /* itunes.icns in Resources */,
+				39709E9E0CBBDE0900F7BC13 /* clearall.tiff in Resources */,
+				39BAB0CA0CBBF98000616AA0 /* ready.png in Resources */,
+				39AAC65C0CBC218F0047C07C /* burntbottom.png in Resources */,
+				39AAC65F0CBC22D90047C07C /* grayback.png in Resources */,
+				39AAC6DA0CBC82F20047C07C /* toolbaraudio.png in Resources */,
+				39AAC6DD0CBC84080047C07C /* toolbaroneoff.png in Resources */,
+				39AAC6DE0CBC84080047C07C /* toolbarinfo.png in Resources */,
+				39B220C80CC65ECC005F67E2 /* afconvert in Resources */,
+				39B220FB0CC660DD005F67E2 /* AtomicParsley in Resources */,
+				398A3B290CCAA56F00548284 /* Localizable.strings in Resources */,
+				398A3C340CCBA3F700548284 /* waver in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257572C9072881A4000BE9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CA072881A4000BE9CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E71A80608A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = FilmRedux;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4E71A80708A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_OSAFLAGS = "-x";
+				PRODUCT_NAME = FilmRedux;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E71A80A08A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		4E71A80B08A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(NATIVE_ARCH_32_BIT)",
+					"$(NATIVE_ARCH_64_BIT)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "FilmRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80608A2C90C0034BBD9 /* Debug */,
+				4E71A80708A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "FilmRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80A08A2C90C0034BBD9 /* Debug */,
+				4E71A80B08A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

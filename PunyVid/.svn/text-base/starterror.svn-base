@@ -1,0 +1,52 @@
+#!/bin/sh
+
+##### StartError
+# This script checks to make sure that the
+# ffmpeg process is moving along by checking
+# the modification second of the /tmp/punyvid_time
+# file. If after 4 seconds the file isn't modified,
+# StartError announces that ffmpeg is dead.
+# In lieu of flowers, please send bug reports to ffmpeg.
+
+## This finds the latest instance of ffmpeg run.
+## Since it's happening a second after the process
+## spawns in the first place, chances are I'm right.
+#pid=`cat /tmp/punyvid_pid`
+
+## This checks the modification time down to the second.
+## If nothing happens in 4-6 seconds, assume it's all broken.
+sleep 3
+isdone=`cat /tmp/punyvid_working`
+if [ $isdone == "done" ]
+then
+	if [ `/usr/bin/tail -1 /tmp/punyvid_time | grep -c overhead` == "1" ]
+		then
+		echo notbroken
+		exit 0
+	else
+		if [ `/usr/bin/tail -1 /tmp/punyvid_time | grep -c "kb/s"` == "1" ]
+			then
+			echo notbroken
+			exit 0
+		else
+			echo broken
+			exit 0
+		fi
+	fi
+fi
+#origtime=`/bin/ls -l $1 | /usr/bin/awk '{ print $5 }' | /usr/bin/tail -n 1`
+#sleep 2
+#if [ $origtime == `/bin/ls -l $1 | /usr/bin/awk '{ print $5 }' | /usr/bin/tail -n 1` ]
+#	then
+#		sleep 6
+#		## Last chance...
+#		if [ $origtime == `/bin/ls -l $1 | /usr/bin/awk '{ print $5 }' | /usr/bin/tail -n 1` ]
+#		then
+#			echo broken
+#		else
+#			echo notbroken
+#		fi
+#	exit 0
+#fi
+echo notbroken
+exit 0

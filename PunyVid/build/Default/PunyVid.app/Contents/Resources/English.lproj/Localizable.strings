@@ -1,0 +1,75 @@
+/* Success Button */
+"complete" = "Conversion Complete!";
+
+/* Advanced Warner */
+"advanced" = "Warning: Changing settings in the Advanced drawer may create videos that are incompatible with the iPod.
+
+Each of the settings in the Advanced drawer can work alongside the Easy Settings. Anything left blank will just use the defaults.
+You'll need to quit and relaunch PunyVid to cancel all these out.
+...but you're just too cool for the defaults anyway, right?";
+
+/* Cancel */
+"stopping" = "Stopping...";
+
+"startingfile" = "Starting File ";
+
+"prepaud" = "Preparing Audio for File ";
+
+/* ffmpeg Error */
+"ffmpegcrash" = "ffmpeg crashed. Ouch.";
+
+/* RealVideo Error */
+"noreal" = "RealVideo files aren't supported. Sorry. Skipping...";
+
+/* OK Buttons */
+"inadequacyok" = "Inadequacy";
+"concernok" = "Concern";
+
+/* Generic Error Sheet 1 and 2 */
+"errorprevented" = "An error prevented ";
+"conversionfromstarting" = "'s conversion from starting. See below for the explanation: ";
+
+/* Cancel Boxes and OK */
+"cancelsheet" = "Oh well. It was fun while it lasted...";
+"cancelerror" = "User cancelled operation.";
+"cancelok" = "Nostalgia";
+
+"lessthan" = "Less than";
+
+"alittleover" = "A little over";
+
+/* Bad Time Remaining Estimate */
+"badestimate1" = "...looks like I lied. File ";
+"badestimate2" = " will be done when it's done...";
+
+"remainingforfile" = " remaining for File ";
+
+"minute" = " minute";
+
+"convertingfile" = "Converting File ";
+
+"finishing" = "Finishing File ";
+
+"starting" = "Starting File ";
+
+/* End-of-conversion Errors */
+"someerrors" = "There were some errors during operation. Not all videos were converted.";
+"allerrors" = "Errors occurred that stopped all conversions.
+Click 'Show Log' for details.";
+
+"file" = "File ";
+
+"of" = " of ";
+
+/*--- missing strings ---*/
+"about" = "About";
+"saveloc" = "Choose a destination location for your converted file(s).";
+"plural" = "s";
+"original" = "Original";
+"stereo" = "Stereo";
+"mono" = "Mono";
+"Denial" = "Denial";
+"Acceptance" = "Acceptance";
+"Donate" = "Donate";
+"ShowLog" = "Show Log";
+"New Version of PunyVid: " = "Hey, there's a update to PunyVid! New Version: ";
