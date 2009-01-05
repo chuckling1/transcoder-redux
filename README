@@ -1,0 +1,16 @@
+This is the Transcoder Redux project. Formerly known as Visual Hub and iSquint, now it's called FilmRedux and PunyVid.
+
+Keep your eyes peeled, as we turn this project into what it should have been.
+
+INSTALL NOTES
+
+On a fresh Leopard install, Growl and libfaac needed to be installed, in order to get this to compile correctly.
+
+Growl: http://growl.info/ Just click and install. Pretty easy.
+libfaac: http://downloads.sourceforge.net/faac/faac-1.26.tar.gz Download this to a directory, unzip it, and run './bootstrap && ./configure && make && sudo make install' to compile it. See the INSTALL file for more info.
+
+After these two programs are installed, FilmRedux should run, and be able to do any of the Apple formats correctly.
+
+Please send me any sort of problems. I love bug reports, and I'd be happy to get these programs up and running on your system.
+
+Thanks!
