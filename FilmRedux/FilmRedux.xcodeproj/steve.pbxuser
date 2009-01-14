@@ -105,19 +105,11 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 252548403;
-			PBXWorkspaceStateSaveDate = 252548403;
+			PBXPerProjectTemplateStateSaveDate = 253642925;
+			PBXWorkspaceStateSaveDate = 253642925;
 		};
 		sourceControlManager = 25D9445A07B1533700FF306F /* Source Control */;
 		userBuildSettings = {
-		};
-	};
-	39C274010D71C7B5005112B8 /* growl.applescript */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1310, 724}}";
-			sepNavSelRange = "{634, 0}";
-			sepNavVisRect = "{{0, 0}, {1310, 724}}";
-			sepNavWindowFrame = "{{15, 171}, {1349, 852}}";
 		};
 	};
 }

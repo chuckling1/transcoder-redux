@@ -12,15 +12,6 @@
 			buildActionMask = 2147483647;
 			contextName = "";
 			files = (
-				257572C5072881A4000BE9CA /* main.applescript in AppleScript */,
-				399035C90C0A80BD007AC6A6 /* buttons.applescript in AppleScript */,
-				39297B980CB0828D00995B21 /* snippets.applescript in AppleScript */,
-				39AFA14F0CB18E0C002F6525 /* table.applescript in AppleScript */,
-				397D7D960CD96D030064BAE5 /* ipod.applescript in AppleScript */,
-				39DA52B50CFE0D41006B1616 /* preview.applescript in AppleScript */,
-				39CB28D10D04E94700B769CC /* automation.applescript in AppleScript */,
-				39C274020D71C7B5005112B8 /* growl.applescript in AppleScript */,
-				39EE33950E5A0E0D001050D2 /* finder.applescript in AppleScript */,
 			);
 			isSharedContext = 0;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -28,20 +19,14 @@
 /* End PBXAppleScriptBuildPhase section */
 
 /* Begin PBXBuildFile section */
-		257572C5072881A4000BE9CA /* main.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA206CF3015C4E8B03C91932 /* main.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		257572C7072881A4000BE9CA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
 		390331B70D68DD5D00C8905F /* notifications.icns in Resources */ = {isa = PBXBuildFile; fileRef = 390331B60D68DD5D00C8905F /* notifications.icns */; };
-		390332260D69285100C8905F /* qt_export in Resources */ = {isa = PBXBuildFile; fileRef = 390332250D69285100C8905F /* qt_export */; };
-		390332280D69285C00C8905F /* 3gppass in Resources */ = {isa = PBXBuildFile; fileRef = 390332270D69285C00C8905F /* 3gppass */; };
 		390371820D41684600E7501B /* cd.png in Resources */ = {isa = PBXBuildFile; fileRef = 390371810D41684600E7501B /* cd.png */; };
-		39216CE60E75A4D600F7A5DB /* movtoy4m in Resources */ = {isa = PBXBuildFile; fileRef = 39216CE50E75A4D600F7A5DB /* movtoy4m */; };
-		39297B980CB0828D00995B21 /* snippets.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 39297B970CB0828D00995B21 /* snippets.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		3944776E0D45765D0026522B /* readyunknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3944776D0D45765D0026522B /* readyunknown.png */; };
-		39583E990DA40A4900FFCAC9 /* COPYING.txt in Resources */ = {isa = PBXBuildFile; fileRef = 39583E970DA40A4900FFCAC9 /* COPYING.txt */; };
 		395A14DA0D4160D400F1E540 /* flac.png in Resources */ = {isa = PBXBuildFile; fileRef = 395A14D80D4160D400F1E540 /* flac.png */; };
 		395A14DB0D4160D400F1E540 /* ogg.png in Resources */ = {isa = PBXBuildFile; fileRef = 395A14D90D4160D400F1E540 /* ogg.png */; };
 		395A14E50D41647400F1E540 /* wma.png in Resources */ = {isa = PBXBuildFile; fileRef = 395A14E40D41647400F1E540 /* wma.png */; };
@@ -51,7 +36,6 @@
 		395A14ED0D4165FC00F1E540 /* wav.png in Resources */ = {isa = PBXBuildFile; fileRef = 395A14DF0D41644900F1E540 /* wav.png */; };
 		395A14EE0D4165FC00F1E540 /* itunesfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 395A14E10D41644900F1E540 /* itunesfile.png */; };
 		395A15400D41669900F1E540 /* 3g.png in Resources */ = {isa = PBXBuildFile; fileRef = 395A153F0D41669900F1E540 /* 3g.png */; };
-		3968A4C20E6CBB7200B6E6D1 /* mp4pass in Resources */ = {isa = PBXBuildFile; fileRef = 3968A4C10E6CBB7200B6E6D1 /* mp4pass */; };
 		39709E8E0CBBDE0900F7BC13 /* preview.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 39709E7D0CBBDE0900F7BC13 /* preview.tiff */; };
 		39709E900CBBDE0900F7BC13 /* info.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 39709E7F0CBBDE0900F7BC13 /* info.tiff */; };
 		39709E910CBBDE0900F7BC13 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 39709E800CBBDE0900F7BC13 /* ok.png */; };
@@ -62,22 +46,14 @@
 		39709E9B0CBBDE0900F7BC13 /* prefs.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39709E8A0CBBDE0900F7BC13 /* prefs.icns */; };
 		39709E9C0CBBDE0900F7BC13 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 39709E8B0CBBDE0900F7BC13 /* error.png */; };
 		39709E9E0CBBDE0900F7BC13 /* clearall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 39709E8D0CBBDE0900F7BC13 /* clearall.tiff */; };
-		397D7D960CD96D030064BAE5 /* ipod.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 397D7D950CD96D030064BAE5 /* ipod.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		398A3B290CCAA56F00548284 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398A3B280CCAA56F00548284 /* Localizable.strings */; };
-		398AC2510CDC13CF004C9375 /* mov123 in Resources */ = {isa = PBXBuildFile; fileRef = 398AC2500CDC13CF004C9375 /* mov123 */; };
-		399035C90C0A80BD007AC6A6 /* buttons.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 399035C80C0A80BD007AC6A6 /* buttons.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		399652D70D25896800B7A514 /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 399652D60D25896800B7A514 /* topbar.png */; };
-		39A13CDF0DE6876800C725AA /* qt_info in Resources */ = {isa = PBXBuildFile; fileRef = 39A13CDE0DE6876800C725AA /* qt_info */; };
-		39A68AFC0D25ACE300AF5D3B /* SetFile in Resources */ = {isa = PBXBuildFile; fileRef = 39A68AFB0D25ACE300AF5D3B /* SetFile */; };
 		39AAC65C0CBC218F0047C07C /* burntbottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC65B0CBC218F0047C07C /* burntbottom.png */; };
 		39AAC65F0CBC22D90047C07C /* grayback.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC65E0CBC22D90047C07C /* grayback.png */; };
 		39AAC6DA0CBC82F20047C07C /* toolbaraudio.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC6D90CBC82F20047C07C /* toolbaraudio.png */; };
 		39AAC6DD0CBC84080047C07C /* toolbaroneoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC6DB0CBC84080047C07C /* toolbaroneoff.png */; };
 		39AAC6DE0CBC84080047C07C /* toolbarinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AAC6DC0CBC84080047C07C /* toolbarinfo.png */; };
-		39AFA14F0CB18E0C002F6525 /* table.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 39AFA14E0CB18E0C002F6525 /* table.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		39BAB0CA0CBBF98000616AA0 /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 39BAB0C90CBBF98000616AA0 /* ready.png */; };
-		39C1BD9D0E55191C00A982BF /* mediainfo in Resources */ = {isa = PBXBuildFile; fileRef = 39C1BD9C0E55191C00A982BF /* mediainfo */; };
-		39C1BD9F0E55192700A982BF /* Example.csv in Resources */ = {isa = PBXBuildFile; fileRef = 39C1BD9E0E55192700A982BF /* Example.csv */; };
 		39C1BE300E56550800A982BF /* dv.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C1BE2F0E56550800A982BF /* dv.png */; };
 		39C1BE320E56551600A982BF /* xbox360.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C1BE310E56551600A982BF /* xbox360.png */; };
 		39C1BE3D0E56554C00A982BF /* ps3.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C1BE370E56554C00A982BF /* ps3.png */; };
@@ -102,8 +78,6 @@
 		39C1BE610E5659C900A982BF /* tinyipod.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C1BE600E5659C900A982BF /* tinyipod.png */; };
 		39C1BE680E565B3900A982BF /* nano.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C1BE660E565B3900A982BF /* nano.png */; };
 		39C1BE690E565B3900A982BF /* tinynano.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C1BE670E565B3900A982BF /* tinynano.png */; };
-		39C274020D71C7B5005112B8 /* growl.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 39C274010D71C7B5005112B8 /* growl.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
-		39CB28D10D04E94700B769CC /* automation.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 39CB28D00D04E94700B769CC /* automation.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		39CDEB7A0E352DE200536F38 /* sofar3.png in Resources */ = {isa = PBXBuildFile; fileRef = 39CDEB700E352DE200536F38 /* sofar3.png */; };
 		39CDEB7B0E352DE200536F38 /* sofar0.png in Resources */ = {isa = PBXBuildFile; fileRef = 39CDEB710E352DE200536F38 /* sofar0.png */; };
 		39CDEB7C0E352DE200536F38 /* sofar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 39CDEB720E352DE200536F38 /* sofar1.png */; };
@@ -121,10 +95,6 @@
 		39D3361F0D45295200CD613F /* tinycd.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D3361A0D45295200CD613F /* tinycd.png */; };
 		39D336210D4529B500CD613F /* tinyogg.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D336200D4529B500CD613F /* tinyogg.png */; };
 		39D336240D452A0000CD613F /* tiny3g.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D336230D452A0000CD613F /* tiny3g.png */; };
-		39DA52B50CFE0D41006B1616 /* preview.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 39DA52B40CFE0D41006B1616 /* preview.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
-		39DD111D0D15D558005563CB /* AtomicParsley in Resources */ = {isa = PBXBuildFile; fileRef = 39B220FA0CC660DD005F67E2 /* AtomicParsley */; };
-		39E956510E997FEA00165A1C /* mencoder in Resources */ = {isa = PBXBuildFile; fileRef = 39E956500E997FEA00165A1C /* mencoder */; };
-		39EE33950E5A0E0D001050D2 /* finder.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 39EE33940E5A0E0D001050D2 /* finder.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,13 +119,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		390331B60D68DD5D00C8905F /* notifications.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = notifications.icns; sourceTree = "<group>"; };
-		390332250D69285100C8905F /* qt_export */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = qt_export; sourceTree = "<group>"; };
-		390332270D69285C00C8905F /* 3gppass */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3gppass; sourceTree = "<group>"; };
 		390371810D41684600E7501B /* cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd.png; sourceTree = "<group>"; };
-		39216CE50E75A4D600F7A5DB /* movtoy4m */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = movtoy4m; sourceTree = "<group>"; };
-		39297B970CB0828D00995B21 /* snippets.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = snippets.applescript; sourceTree = "<group>"; };
 		3944776D0D45765D0026522B /* readyunknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = readyunknown.png; sourceTree = "<group>"; };
-		39583E970DA40A4900FFCAC9 /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
 		395A14D80D4160D400F1E540 /* flac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flac.png; sourceTree = "<group>"; };
 		395A14D90D4160D400F1E540 /* ogg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ogg.png; sourceTree = "<group>"; };
 		395A14DD0D41644900F1E540 /* aiff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aiff.png; sourceTree = "<group>"; };
@@ -165,7 +130,6 @@
 		395A14E10D41644900F1E540 /* itunesfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunesfile.png; sourceTree = "<group>"; };
 		395A14E40D41647400F1E540 /* wma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wma.png; sourceTree = "<group>"; };
 		395A153F0D41669900F1E540 /* 3g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3g.png; sourceTree = "<group>"; };
-		3968A4C10E6CBB7200B6E6D1 /* mp4pass */ = {isa = PBXFileReference; lastKnownFileType = file; path = mp4pass; sourceTree = "<group>"; };
 		39709E7D0CBBDE0900F7BC13 /* preview.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = preview.tiff; path = icons/preview.tiff; sourceTree = "<group>"; };
 		39709E7F0CBBDE0900F7BC13 /* info.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = info.tiff; path = icons/info.tiff; sourceTree = "<group>"; };
 		39709E800CBBDE0900F7BC13 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok.png; path = icons/ok.png; sourceTree = "<group>"; };
@@ -177,23 +141,14 @@
 		39709E8A0CBBDE0900F7BC13 /* prefs.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = prefs.icns; path = icons/prefs.icns; sourceTree = "<group>"; };
 		39709E8B0CBBDE0900F7BC13 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = icons/error.png; sourceTree = "<group>"; };
 		39709E8D0CBBDE0900F7BC13 /* clearall.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = clearall.tiff; path = icons/clearall.tiff; sourceTree = "<group>"; };
-		397D7D950CD96D030064BAE5 /* ipod.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = ipod.applescript; sourceTree = "<group>"; };
 		398A3B280CCAA56F00548284 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		398AC2500CDC13CF004C9375 /* mov123 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mov123; sourceTree = "<group>"; };
-		399035C80C0A80BD007AC6A6 /* buttons.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = buttons.applescript; sourceTree = "<group>"; };
 		399652D60D25896800B7A514 /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
-		39A13CDE0DE6876800C725AA /* qt_info */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = qt_info; sourceTree = "<group>"; };
-		39A68AFB0D25ACE300AF5D3B /* SetFile */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = SetFile; sourceTree = "<group>"; };
 		39AAC65B0CBC218F0047C07C /* burntbottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burntbottom.png; sourceTree = "<group>"; };
 		39AAC65E0CBC22D90047C07C /* grayback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayback.png; sourceTree = "<group>"; };
 		39AAC6D90CBC82F20047C07C /* toolbaraudio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbaraudio.png; sourceTree = "<group>"; };
 		39AAC6DB0CBC84080047C07C /* toolbaroneoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbaroneoff.png; sourceTree = "<group>"; };
 		39AAC6DC0CBC84080047C07C /* toolbarinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbarinfo.png; sourceTree = "<group>"; };
-		39AFA14E0CB18E0C002F6525 /* table.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = table.applescript; sourceTree = "<group>"; };
-		39B220FA0CC660DD005F67E2 /* AtomicParsley */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = AtomicParsley; sourceTree = "<group>"; };
 		39BAB0C90CBBF98000616AA0 /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
-		39C1BD9C0E55191C00A982BF /* mediainfo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mediainfo; sourceTree = "<group>"; };
-		39C1BD9E0E55192700A982BF /* Example.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example.csv; sourceTree = "<group>"; };
 		39C1BE2F0E56550800A982BF /* dv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv.png; sourceTree = "<group>"; };
 		39C1BE310E56551600A982BF /* xbox360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xbox360.png; sourceTree = "<group>"; };
 		39C1BE370E56554C00A982BF /* ps3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ps3.png; sourceTree = "<group>"; };
@@ -218,8 +173,6 @@
 		39C1BE600E5659C900A982BF /* tinyipod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinyipod.png; sourceTree = "<group>"; };
 		39C1BE660E565B3900A982BF /* nano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nano.png; sourceTree = "<group>"; };
 		39C1BE670E565B3900A982BF /* tinynano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinynano.png; sourceTree = "<group>"; };
-		39C274010D71C7B5005112B8 /* growl.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = growl.applescript; sourceTree = "<group>"; };
-		39CB28D00D04E94700B769CC /* automation.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = automation.applescript; sourceTree = "<group>"; };
 		39CDEB700E352DE200536F38 /* sofar3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sofar3.png; path = icons/sofar3.png; sourceTree = "<group>"; };
 		39CDEB710E352DE200536F38 /* sofar0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sofar0.png; path = icons/sofar0.png; sourceTree = "<group>"; };
 		39CDEB720E352DE200536F38 /* sofar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sofar1.png; path = icons/sofar1.png; sourceTree = "<group>"; };
@@ -237,12 +190,8 @@
 		39D3361A0D45295200CD613F /* tinycd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinycd.png; sourceTree = "<group>"; };
 		39D336200D4529B500CD613F /* tinyogg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinyogg.png; sourceTree = "<group>"; };
 		39D336230D452A0000CD613F /* tiny3g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiny3g.png; sourceTree = "<group>"; };
-		39DA52B40CFE0D41006B1616 /* preview.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = preview.applescript; sourceTree = "<group>"; };
-		39E956500E997FEA00165A1C /* mencoder */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mencoder; sourceTree = "<group>"; };
-		39EE33940E5A0E0D001050D2 /* finder.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = finder.applescript; sourceTree = "<group>"; };
 		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
 		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
-		DA206CF3015C4E8B03C91932 /* main.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = main.applescript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,15 +210,6 @@
 		080E96DDFE201D6D7F000001 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				DA206CF3015C4E8B03C91932 /* main.applescript */,
-				399035C80C0A80BD007AC6A6 /* buttons.applescript */,
-				39297B970CB0828D00995B21 /* snippets.applescript */,
-				39EE33940E5A0E0D001050D2 /* finder.applescript */,
-				39CB28D00D04E94700B769CC /* automation.applescript */,
-				397D7D950CD96D030064BAE5 /* ipod.applescript */,
-				39AFA14E0CB18E0C002F6525 /* table.applescript */,
-				39DA52B40CFE0D41006B1616 /* preview.applescript */,
-				39C274010D71C7B5005112B8 /* growl.applescript */,
 			);
 			name = Scripts;
 			sourceTree = "<group>";
@@ -325,9 +265,6 @@
 			isa = PBXGroup;
 			children = (
 				394FACEE0E1D66A200B97EEA /* executables */,
-				39C1BD9E0E55192700A982BF /* Example.csv */,
-				39583E970DA40A4900FFCAC9 /* COPYING.txt */,
-				390332270D69285C00C8905F /* 3gppass */,
 				399035D50C0A8188007AC6A6 /* Images */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -349,15 +286,6 @@
 		394FACEE0E1D66A200B97EEA /* executables */ = {
 			isa = PBXGroup;
 			children = (
-				39E956500E997FEA00165A1C /* mencoder */,
-				39C1BD9C0E55191C00A982BF /* mediainfo */,
-				39B220FA0CC660DD005F67E2 /* AtomicParsley */,
-				398AC2500CDC13CF004C9375 /* mov123 */,
-				39216CE50E75A4D600F7A5DB /* movtoy4m */,
-				39A13CDE0DE6876800C725AA /* qt_info */,
-				3968A4C10E6CBB7200B6E6D1 /* mp4pass */,
-				39A68AFB0D25ACE300AF5D3B /* SetFile */,
-				390332250D69285100C8905F /* qt_export */,
 			);
 			name = executables;
 			sourceTree = "<group>";
@@ -515,10 +443,7 @@
 				39AAC6DD0CBC84080047C07C /* toolbaroneoff.png in Resources */,
 				39AAC6DE0CBC84080047C07C /* toolbarinfo.png in Resources */,
 				398A3B290CCAA56F00548284 /* Localizable.strings in Resources */,
-				398AC2510CDC13CF004C9375 /* mov123 in Resources */,
-				39DD111D0D15D558005563CB /* AtomicParsley in Resources */,
 				399652D70D25896800B7A514 /* topbar.png in Resources */,
-				39A68AFC0D25ACE300AF5D3B /* SetFile in Resources */,
 				395A14DA0D4160D400F1E540 /* flac.png in Resources */,
 				395A14DB0D4160D400F1E540 /* ogg.png in Resources */,
 				395A14E50D41647400F1E540 /* wma.png in Resources */,
@@ -538,10 +463,6 @@
 				39D336240D452A0000CD613F /* tiny3g.png in Resources */,
 				3944776E0D45765D0026522B /* readyunknown.png in Resources */,
 				390331B70D68DD5D00C8905F /* notifications.icns in Resources */,
-				390332260D69285100C8905F /* qt_export in Resources */,
-				390332280D69285C00C8905F /* 3gppass in Resources */,
-				39583E990DA40A4900FFCAC9 /* COPYING.txt in Resources */,
-				39A13CDF0DE6876800C725AA /* qt_info in Resources */,
 				39CDEB7A0E352DE200536F38 /* sofar3.png in Resources */,
 				39CDEB7B0E352DE200536F38 /* sofar0.png in Resources */,
 				39CDEB7C0E352DE200536F38 /* sofar1.png in Resources */,
@@ -552,8 +473,6 @@
 				39CDEB810E352DE200536F38 /* sofar6.png in Resources */,
 				39CDEB820E352DE200536F38 /* sofar7.png in Resources */,
 				39CDEB830E352DE200536F38 /* sofar8.png in Resources */,
-				39C1BD9D0E55191C00A982BF /* mediainfo in Resources */,
-				39C1BD9F0E55192700A982BF /* Example.csv in Resources */,
 				39C1BE300E56550800A982BF /* dv.png in Resources */,
 				39C1BE320E56551600A982BF /* xbox360.png in Resources */,
 				39C1BE3D0E56554C00A982BF /* ps3.png in Resources */,
@@ -578,9 +497,6 @@
 				39C1BE610E5659C900A982BF /* tinyipod.png in Resources */,
 				39C1BE680E565B3900A982BF /* nano.png in Resources */,
 				39C1BE690E565B3900A982BF /* tinynano.png in Resources */,
-				3968A4C20E6CBB7200B6E6D1 /* mp4pass in Resources */,
-				39216CE60E75A4D600F7A5DB /* movtoy4m in Resources */,
-				39E956510E997FEA00165A1C /* mencoder in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
