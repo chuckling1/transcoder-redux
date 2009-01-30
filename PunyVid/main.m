@@ -1,9 +1,14 @@
-extern void ASKInitialize();
-extern int NSApplicationMain(int argc, const char *argv[]);
+//
+//  main.m
+//  PunyVid
+//
+//  Created by Charlie Davis on 1/29/09.
+//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//
 
-int main(int argc, const char *argv[])
+#import <Cocoa/Cocoa.h>
+
+int main(int argc, char *argv[])
 {
-    ASKInitialize();
-
-    return NSApplicationMain(argc, argv);
+    return NSApplicationMain(argc,  (const char **) argv);
 }

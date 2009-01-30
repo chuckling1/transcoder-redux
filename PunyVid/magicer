@@ -1,9 +1,0 @@
-#!/bin/tcsh
-
-## Magicer
-# ...it's MAGIC!
-
-/bin/cat /tmp/isquint_command.sh >> /tmp/isquint_time
-/bin/sh /tmp/isquint_command.sh &
-echo $! >> /tmp/isquint_pid
-exit 0
