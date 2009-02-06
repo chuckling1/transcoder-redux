@@ -1,8 +1,10 @@
-f4db94f526e41499137be1585db6b486 8871ad3b00de5da754a75dac5408e4da ffffffffffffffffffffffffffffffff 4840 /Users/crd16/Code/transcoder-redux/PunyVid/build/PunyVid.build/Debug/PunyVid.build/Objects-normal/i386/main.o
-e8f2330029cb7573f7f726539bc7a40b ef52ac29cc8bcf4d3a4a40bdda3a9a13 ffffffffffffffffffffffffffffffff 102 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app
-7caa39ce272db01c47dcbcf409bf55d0 d8776e6d46d20e68c78c40adaec6abd3 ffffffffffffffffffffffffffffffff 16928 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app/Contents/MacOS/PunyVid
+dee1059c2891a2b52e0ec97ee05d52d7 ef52ac29cc8bcf4d3a4a40bdda3a9a13 ffffffffffffffffffffffffffffffff 102 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app
+00000000000000000000000000000000 94061cb47a7dff40720873c99cf54460 ffffffffffffffffffffffffffffffff 170 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app/Contents/Resources/MainMenu.nib
+f4db94f56f66936c137be1585db6b439 bdc2d7dba3bb7411412cf5504696f915 ffffffffffffffffffffffffffffffff 14772 /Users/crd16/Code/transcoder-redux/PunyVid/build/PunyVid.build/Debug/PunyVid.build/Objects-normal/i386/AppController.o
+f4db94f526ed3b20137be1585db6b565 8871ad3b00de5da754a75dac5408e4da ffffffffffffffffffffffffffffffff 4952 /Users/crd16/Code/transcoder-redux/PunyVid/build/PunyVid.build/Debug/PunyVid.build/Objects-normal/i386/main.o
+35b37ae0ebf978d8158ba8fc129f191f d8776e6d46d20e68c78c40adaec6abd3 ffffffffffffffffffffffffffffffff 17920 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app/Contents/MacOS/PunyVid
 00000000091c5800000000000000625b f4db94f526e41499137be1585db6b4e9 ffffffffffffffffffffffffffffffff 34628288 /Library/Caches/com.apple.Xcode.501/SharedPrecompiledHeaders/PunyVid_Prefix-acragqjwmknviteoykhngvztiueo/PunyVid_Prefix.pch.gch
 00000000498286cf000000000000005c 33251111cc3852cafc09212f5c04e047 ffffffffffffffffffffffffffffffff 92 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app/Contents/Resources/English.lproj/InfoPlist.strings
-00000000000000000000000000000000 7f0a75b2cd8e1f028baefb2560baba13 ffffffffffffffffffffffffffffffff 136 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app/Contents/Resources/English.lproj/MainMenu.nib
 00000000000000000000000000000000 daf9ce57493a63c1ed5be9b4898e6173 ffffffffffffffffffffffffffffffff 8 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app/Contents/PkgInfo
 00000000000000000000000000000000 daf9ce57493a63c1ed5be9b4898e6173 ffffffffffffffffffffffffffffffff 769 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app/Contents/Info.plist
+00000000000000000000000000000000 7f0a75b2cd8e1f028baefb2560baba13 ffffffffffffffffffffffffffffffff 136 /Users/crd16/Code/transcoder-redux/PunyVid/build/Debug/PunyVid.app/Contents/Resources/English.lproj/MainMenu.nib
